@@ -23,7 +23,7 @@ public class Appointment {
     private String firstName;
     @Column(name = "surname", nullable = false, length = 50)
     private String surname;
-    @Column(name = "email", nullable = false, length = 50)
+    @Column(name = "email", nullable = false, length = 254)
     private String email;
     @Column(name = "phone_number",length = 20)
     private String phoneNumber;

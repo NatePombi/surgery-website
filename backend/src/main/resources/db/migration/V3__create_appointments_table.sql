@@ -2,7 +2,7 @@ create table appointments(
     id BIGSERIAL primary key ,
     first_name varchar(50) not null ,
     surname varchar(50) not null ,
-    email varchar(50) not null ,
+    email varchar(254) not null ,
     phone_number varchar(20) ,
     appointment_date Date not null ,
     appointment_time TIME with time zone not null ,
